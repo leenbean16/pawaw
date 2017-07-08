@@ -1,0 +1,24 @@
+{
+  "name": "pawaw",
+  "version": "1.0.0",
+  "description": "parking app",
+  "main": "parker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leenbean16/pawaw.git"
+  },
+  "author": "LINA SHAMOON",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leenbean16/pawaw/issues"
+  },
+  "homepage": "https://github.com/leenbean16/pawaw#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {}
+}
