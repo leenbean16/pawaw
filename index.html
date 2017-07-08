@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="parker.css">
@@ -31,6 +32,9 @@
                 </ul>
             </a>
         </div>
+        <div class="row top">
+            <img class="girls animated fadeInDown" src="parking.png">
+        </div>
         <div id="text" class="row">
             <div class="col s12 left">
                 Your extra spot could mean extra cash. Rent it on SpotHero and earn added income, easily.
@@ -50,85 +54,112 @@
 
         <div class="row">
             <div class="col s4 one">
-            <h1>1.</h1>
+                <h1>1.</h1>
                 <p>Fill out the form</p>
                 <ul>
-                <li>Submit the location, pricing</li> 
-                <li>and availability of your parking spot.</li>
+                    <li>Submit the location, pricing</li>
+                    <li>and availability of your parking spot.</li>
                 </ul>
             </div>
- 
+
             <div class="col s4 two">
-            <h1>2.</h1>
-                               <p>Start renting</p>
+                <h1>2.</h1>
+                <p>Start renting</p>
                 <ul>
-                <li>Reach thousands of drivers on</li> 
-                <li>the SpotHero mobile app and website.</li>
+                    <li>Reach thousands of drivers on</li>
+                    <li>the SpotHero mobile app and website.</li>
                 </ul>
             </div>
             <div class="col s4 three">
-            <h1>3.</h1>
+                <h1>3.</h1>
                 <p>Get Paid</p>
                 <ul>
-                <li>Receive a monthly check or deposit for an </li> 
-                <li>easy way to make extra money.</li>
+                    <li>Receive a monthly check or deposit for an </li>
+                    <li>easy way to make extra money.</li>
                 </ul>
             </div>
         </div>
 
         <!-- map -->
+        <div id="map-row" class="row">
+            <div id="map">
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDga0Ma9FnUBZmXkJFnJ13rdZvLpeVTIEY&callback=initMap">
+                </script>
+            </div>
+        </div>
 
-
-        <div id="map">
-            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDga0Ma9FnUBZmXkJFnJ13rdZvLpeVTIEY&callback=initMap">
-            </script>
+        <div class="row">
+            <div class="col s6 work">
+                <img class="spot" src="spot.jpg">
+            </div>
+            <div class="col s6 worktwo">
+                Put your empty spot to work!
+            </div>
         </div>
 
         <div id="footer" class="row">
-        </div>
-
-
-
-
-        <!-- Modal Structure -->
-        <div id="modal1" class="modal modal-fixed-footer hoverable">
-            <div class="modal-content">
-                <h4>Login/Sign Up</h4>
-                <p class="sign-in-p">If you already have an account, sign in. If not, create an account.</p>
-                <div id="modal-form" class="row">
-                    <div class="input-field col s12">
-                        <input placeholder="Username" id="user-name" type="text" class="validate">
-                        <label class="form-text" for="first_name"></label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input placeholder="Email" id="email" type="email" class="validate">
-                        <label class="form-text" for="email"></label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input placeholder="Password" id="password" type="password" class="validate">
-                        <label class="form-text" for="password"></label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input placeholder="Password2" id="password2" type="password" class="validate2">
-                        <label class="form-text" for="password"></label>
-                    </div>
-                    <a id="form-button" class="waves-effect waves-light btn sign-in-btn">Sign In</a>
-                    <a id="form-button" class="waves-effect waves-light btn sign-up-btn">Sign Up</a>
-                    <a id="form-button" class="waves-effect waves-light btn back-btn">Back</a>
-                    <a id="form-button" class="waves-effect waves-light btn submit-btn">Submit</a>
-                    </form>
-                </div>
+            <div class="col s4 bone">
+                <ul>
+                    <li>Submit the location, pricing</li>
+                    <li>and availability of your parking spot.</li>
+                </ul>
             </div>
-            <div class="modal-footer">
-                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Exit</a>
+            <div class="col s4 btwo">
+                <ul>
+                    <li>Reach thousands of drivers on</li>
+                    <li>the SpotHero mobile app and website.</li>
+                </ul>
+            </div>
+            <div class="col s4 bthree">
+                <ul>
+                    <li>Receive a monthly check or deposit for an </li>
+                    <li>easy way to make extra money.</li>
+                </ul>
             </div>
         </div>
+    </div>
+
+
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer hoverable">
+        <div class="modal-content">
+            <h4>Login/Sign Up</h4>
+            <p class="sign-in-p">If you already have an account, sign in. If not, create an account.</p>
+            <div id="modal-form" class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Username" id="user-name" type="text" class="validate">
+                    <label class="form-text" for="first_name"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Email" id="email" type="email" class="validate">
+                    <label class="form-text" for="email"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Password" id="password" type="password" class="validate">
+                    <label class="form-text" for="password"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Password2" id="password2" type="password" class="validate2">
+                    <label class="form-text" for="password"></label>
+                </div>
+                <a id="form-button" class="waves-effect waves-light btn sign-in-btn">Sign In</a>
+                <a id="form-button" class="waves-effect waves-light btn sign-up-btn">Sign Up</a>
+                <a id="form-button" class="waves-effect waves-light btn back-btn">Back</a>
+                <a id="form-button" class="waves-effect waves-light btn submit-btn">Submit</a>
+                </form>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Exit</a>
+        </div>
+    </div>
     </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="parker.js"></script>

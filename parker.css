@@ -14,8 +14,9 @@ a {
 }
 
 #sign-up-button{
-    margin-left: 45%;
+    margin-left: 41%;
     background: #247BA0;
+    width:200px;
 }
 
 a:hover{
@@ -53,10 +54,12 @@ nav .nav-wrapper {
 .col.s12.left {
     padding-top: 25px;
     font-family: 'Contrail One', cursive;
-    color: #000;
+    color: #70C1B3;
+    font-size: 25px;
     text-align: center;
     background: #FFF;
     height: 50px;
+    margin-bottom: 20px; 
 }
 
 .col.s12.right {
@@ -95,11 +98,64 @@ nav .nav-wrapper {
     height: 200px;
 }
 
+.col.s4.bone {
+    font-family: 'Contrail One', cursive;
+    padding-top: 25px;
+    font-size: 16px;
+    color: #000;
+    text-align: right;
+}
+
+.col.s4.btwo {
+    font-family: 'Contrail One', cursive;
+    padding-top: 25px;
+    font-size: 16px;
+    color: #000;
+    text-align: right;
+}
+
+.col.s4.bthree {
+    font-family: 'Contrail One', cursive;
+    padding-top: 25px;
+    font-size: 16px;
+    color: #000;
+    text-align: right;
+}
+
+.col.s6.work{
+    padding-top: 25px;
+    font-family: 'Contrail One', cursive;
+    color: #000;
+    text-align: center;
+    background: #FFF;
+    margin-bottom: 20px; 
+}
+
+.col.s6.worktwo{
+    padding-top: 200px;
+    font-family: 'Contrail One', cursive;
+    color: #000;
+    text-align: center;
+    background: #FFF;
+    margin-bottom: 20px; 
+}
+
+.spot{
+    width:500px;
+}
+
 .pawaw {
     text-align: left;
     font-family: 'Contrail One', cursive;
     font-size: 40px;
     color: #FF1654;
+}
+
+.row.top{}
+
+.girls{
+    width:1100px;
+    margin-left: 20px;
 }
 
 p {
@@ -329,8 +385,14 @@ textarea.materialize-textarea {
 
 
 /*map area*/
+#map-row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 #map {
+    margin-top: 30px;
+    margin-bottom: 30px;
     height: 400px;
     width: 100%;
 }
