@@ -31,7 +31,7 @@ a:hover{
 
 .row {
     padding: 0px;
-    margin: 0px;e
+    margin: 0px;
 }
 
 nav{
@@ -156,8 +156,6 @@ nav .nav-wrapper {
     color: #FF1654;
 }
 
-.row.top{}
-
 .girls{
     width:1140px;
 }
@@ -182,211 +180,10 @@ i.material-icons {
     color: #000;
 }
 
-#third-row {
-    background: gray;
-    text-align: center;
-    font-family: 'Contrail One', cursive;
-    font-size: 25px;
-    color: #000;
-    font-weight: bold;
-}
-
 #footer{
     background: #F3FFBD;
     height:250px;
 }
-
-/*modal */
-
-/*.modal.modal-fixed-footer .modal-footer {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    position: absolute;
-    bottom: 0;
-    border: 2px solid #fff;
-}
-
-.modal.modal-fixed-footer .modal-content {
-    position: absolute;
-    height: calc(100% - 56px);
-    max-height: 100%;
-    width: 100%;
-    overflow-y: auto;
-    background: rosybrown;
-    border-radius: 0px;
-    border: 2px solid #fff;
-}
-
-h4 {
-    font-family: 'Contrail One', cursive;
-    color: #000000;
-    font-size: 30px;
-}
-
-.sign-in-p {
-    text-align: center;
-    font-family: 'Contrail One', cursive;
-    font-size: 20px;
-    color: #000;
-    text-align: justify;
-}
-
-input:not([type]),
-input[type=text],
-input[type=password],
-input[type=email],
-input[type=url],
-input[type=time],
-input[type=date],
-input[type=datetime],
-input[type=datetime-local],
-input[type=tel],
-input[type=number],
-input[type=search],
-textarea.materialize-textarea {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #000;
-    border-radius: 0;
-    outline: none;
-    height: 3rem;
-    width: 100%;
-    font-size: 1rem;
-    margin: 0px;
-    padding: 0;
-    box-shadow: none;
-    box-sizing: content-box;
-    transition: all 0.3s;
-    color: #000;
-}
-
-.input-field label {
-    color: #000;
-}
-
-.input-field input[type=text]:focus + label {
-    color: #000;
-}
-
-.input-field input[type=text]:focus {
-    border-bottom: 1px solid #000;
-    box-shadow: 0 1px 0 0 #000;
-}
-
-.input-field input[type=text].valid {
-    border-bottom: 1px solid #000;
-    box-shadow: 0 1px 0 0 #000;
-}
-
-.input-field input[type=text].invalid {
-    border-bottom: 1px solid #000;
-    box-shadow: 0 1px 0 0 #000;
-}
-
-.input-field .prefix.active {
-    color: #000;
-}
-
-a:hover {
-    letter-spacing: 2px;
-    text-decoration: none;
-    color: white;
-    background-color: transparent;
-}
-
-nav ul a:hover {
-    background-color: none;
-}
-
-.modal {
-    display: none;
-    position: fixed;
-    left: 0;
-    right: 0;
-    background-color: #fafafa;
-    padding: 0;
-    max-height: 70%;
-    width: 27%;
-    margin: auto;
-    overflow-y: auto;
-    border-radius: 0px;
-    will-change: top, opacity;
-}*/
-/*
-#form-button {
-    margin-top: 10px;
-    background: darkgrey;
-}
-*/
-
-
-
-.modal.modal-fixed-footer {
-    padding: 0;
-    height: 50%;
-    width: 19%;
-}
-
-.modal-content {
-    position: relative;
-    background-color: #fff;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: none;
-    outline: 0;
-}
-
-.modal.modal-fixed-footer .modal-content {
-    position: absolute;
-    height: calc(100% - 56px);
-    max-height: 100%;
-    border-radius: 0px;
-    width: 100%;
-    overflow-y: auto;
-}
-
-.input-field {
-    position: relative;
-}
-
-input:not([type]),
-input[type=text],
-input[type=password],
-input[type=email],
-input[type=url],
-input[type=time],
-input[type=date],
-input[type=datetime],
-input[type=datetime-local],
-input[type=tel],
-input[type=number],
-input[type=search],
-textarea.materialize-textarea {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #9e9e9e;
-    border-radius: 0;
-    outline: none;
-    height: 1rem;
-    width: 100%;
-    font-size: 1rem;
-    margin: 0 0 10px 0;
-    padding: 0;
-    box-shadow: none;
-    box-sizing: content-box;
-    transition: all 0.3s;
-}
-
-.input-field {
-    margin-left: 0px !important;
-    position: relative;
-    margin-top: 0rem;
-}
-
-#form-button {
-    margin-left: 5px;
-}
-
-
 
 /*map area*/
 #map-row{
@@ -399,4 +196,73 @@ textarea.materialize-textarea {
     margin-bottom: 30px;
     height: 400px;
     width: 100%;
+}
+
+.row.title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color:black;
+    text-align: center;
+}
+
+.input-field.col.s12{
+    margin-bottom: 25px;
+}
+
+form{
+    border: 1px solid #fff !important;
+    margin-bottom: 25px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #ff1654;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    margin-left: 27%;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
 }
