@@ -13,10 +13,15 @@ a {
     color: #70C1B3;
 }
 
+li{
+    color: darkgray;
+}
+
 #sign-up-button{
     margin-left: 41%;
-    background: #247BA0;
+    background: #FF1654;
     width:200px;
+    font-size: 40px;
 }
 
 a:hover{
@@ -132,7 +137,7 @@ nav .nav-wrapper {
 }
 
 .col.s6.worktwo{
-    padding-top: 200px;
+    padding-top: 100px;
     font-family: 'Contrail One', cursive;
     color: #000;
     text-align: center;
